@@ -1,9 +1,9 @@
 format long;
-syms  % variables 
-S = []; %escribe las variables de arriba
-f = ; % la funcion del error
-V = [] ; % valores de las variables
-er = []; % errores de les variables
+syms x y % variables 
+S = [x y]; %rewrite variable
+f = x*cos(y^2); % function of new magnitude
+V = [[2 5]; [1.3 4];[0.75 3.6]] ; % valores de las variables
+er = [[0.1 0.1]; [0.1 0.1] ;[0.1 0.1]]; % errores de les variables
 [n,m] = size(V);
 
 

@@ -10,3 +10,6 @@ $$
 
 which may be a very common mistakes source in lab reports.
 
+
+## Why is it useful?
+It allows you to know for each list of data (with known uncertainty) the uncertainty of a new magnitude led by a function f. Moreover, you can find a simple but useful function to build graphs with uncertainties for each measures.
